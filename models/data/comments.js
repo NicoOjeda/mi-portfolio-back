@@ -1,8 +1,8 @@
 require('dotenv').config()
 require('../../config/database')
-const Coment = require('../Coment')
+const Comment = require('../Comment')
 
-let coments = [{
+let comments = [{
     "nombre": "laura",
     "email": "laura@hotmail.com",
     "whatsapp": 1155125720,
@@ -10,8 +10,8 @@ let coments = [{
     "mensaje": "te ofrezco trabajo"
 }]
 
-coments.forEach(elemento =>{
-    Coment.create({
+comments.forEach(elemento =>{
+    Comment.create({
         nombre: elemento.nombre,
         email:elemento.email,
         whatsapp: elemento.whatsapp,

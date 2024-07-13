@@ -8,5 +8,5 @@ const schema= new mongoose.Schema({
     mensaje: {type: String, required: true}
 })
 
-const Coment = mongoose.model('coments', schema)
-module.exports = Coment
+const Comment = mongoose.model('comments', schema)
+module.exports = Comment
