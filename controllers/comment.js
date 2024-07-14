@@ -3,9 +3,6 @@ const Comment = require('../models/Comment')
 const controller = {
 
     create: async(req,res)=>{
-
-
-
         try{
             let new_comment = await Comment.create(req.body)
 
@@ -22,29 +19,29 @@ const controller = {
         }
     },
 
-    read: async(req,res)=>{
-        try{
+    // read: async(req,res)=>{
+    //     try{
             
-        } catch(){
+    //     } catch(){
             
-        }
-    },
+    //     }
+    // },
 
-    update: async(req,res)=>{
-        try{
+    // update: async(req,res)=>{
+    //     try{
 
-        } catch(){
+    //     } catch(){
             
-        }
-    },
+    //     }
+    // },
 
-    destroy: async(req,res)=>{
-        try{
+    // destroy: async(req,res)=>{
+    //     try{
 
-        } catch(){
+    //     } catch(){
             
-        }
-    },
+    //     }
+    // }
 
 }
 
